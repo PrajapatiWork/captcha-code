@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Code Generator</title>
+    <link rel="stylesheet" href="myStylesheet.css">
+</head>
+
+<body>
+    <h2>Simple Captcha code Generator </h2>
+    <div class="mainDiv">
+        <div class="container">
+            <div class="inputContainer">
+                <p>Captcha Code</p>
+                <P id="captchaString"></P>
+                <p>Enter the characters you see</p>
+                <input id ="userInput" type="text" placeholder="Type here" maxlength="6">
+            </div>
+            <div id="msg"></div>
+            <div class="buttonContainer">
+                <button id="btnSubmit">Submit</button>
+                <button id = "newCode">New Code</button>
+            </div>
+        </div>
+    </div>
+
+<script src="myScript.js"></script>
+</body>
+
+</html>
